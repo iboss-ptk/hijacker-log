@@ -1,0 +1,15 @@
+<head>
+  <title>hijacker-log</title>
+</head>
+
+<body>
+  <h1>Hijacking Logger</h1>
+
+  {{> logger}}
+</body>
+
+<template name="logger">
+  {{#each logs}}
+    <p>{{content}}</p>
+  {{/each}}
+</template>
